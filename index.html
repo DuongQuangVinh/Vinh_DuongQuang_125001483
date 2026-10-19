@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crust & Co. — Pizza nóng hổi, đế giòn, phô mai kéo sợi và nguyên liệu tươi ngon.">
+  <title>Crust & Co. — Pizza làm ngày của bạn ngon hơn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement__spark">✦</span>
+    Giao hàng miễn phí cho đơn từ 299K
+    <span class="announcement__spark">✦</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Crust and Co. trang chủ">
+      <span class="brand__mark">C<span>&</span></span>
+      <span class="brand__name">CRUST <i>&</i> CO.<small>GOOD MOOD, GREAT PIZZA</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a class="main-nav__link main-nav__link--active" href="#home">Trang chủ</a>
+      <a class="main-nav__link" href="#menu">Thực đơn</a>
+      <a class="main-nav__link" href="#story">Câu chuyện</a>
+      <a class="main-nav__link" href="#reviews">Đánh giá</a>
+    </nav>
+    <a class="header-cta" href="#menu">Đặt pizza <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__grain" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow"><span class="eyebrow__line"></span> PIZZA THỦ CÔNG · NƯỚNG TƯƠI MỖI NGÀY</p>
+        <h1>Một miếng<br>là <em>mê say.</em></h1>
+        <p class="hero__description">Đế bánh vàng giòn, phô mai tan chảy và những nguyên liệu tươi ngon nhất — niềm vui luôn bắt đầu từ một chiếc pizza.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#menu">Khám phá thực đơn <span>↗</span></a>
+          <a class="text-link" href="#story"><span class="play-icon">▶</span> Câu chuyện của chúng tôi</a>
+        </div>
+        <div class="hero__social-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>V</span><span>M</span><span>A</span><span>+</span></div>
+          <div><strong>4.9/5 <span class="stars">★★★★★</span></strong><small>Được yêu thích bởi 2.000+ tín đồ pizza</small></div>
+        </div>
+      </div>
+      <div class="hero__visual" aria-label="Pizza pepperoni nóng hổi">
+        <div class="hero__sun"></div>
+        <div class="hero__image-frame">
+          <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=1200&q=88" alt="Pizza pepperoni nướng vàng với phô mai tan chảy">
+        </div>
+        <div class="floating-note floating-note--top"><span class="note-icon">✳</span><span><strong>100% tươi mới</strong><small>Nguyên liệu chọn lọc</small></span></div>
+        <div class="floating-note floating-note--bottom"><span class="note-icon note-icon--red">♨</span><span><strong>Nướng nóng mỗi ngày</strong><small>Giòn ngoài, mềm trong</small></span></div>
+        <div class="hero__badge"><span>MADE WITH</span><strong>♥</strong><span>PASSION</span></div>
+        <span class="doodle doodle--one" aria-hidden="true">✳</span>
+        <span class="doodle doodle--two" aria-hidden="true">✦</span>
+      </div>
+      <div class="hero__bottomline"><span>01 — THE ART OF PIZZA</span><span>HANDMADE WITH LOVE</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="eyebrow__line"></span> MÓN NGON ĐƯỢC YÊU THÍCH</p><h2>Chiếc bánh <em>hoàn hảo</em><br>đang chờ bạn.</h2></div>
+        <p class="section-heading__aside">Từ công thức cổ điển nước Ý đến những hương vị đầy bất ngờ. Tìm thấy chiếc pizza dành riêng cho bạn.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="pizza-card">
+          <div class="pizza-card__image"><span class="card-tag">BEST SELLER</span><img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=85" alt="Pizza Pepperoni với xúc xích pepperoni và phô mai"></div>
+          <div class="pizza-card__body"><div class="pizza-card__title"><h3>Classic Pepperoni</h3><span class="pizza-card__rating">★ 4.9</span></div><p>Pepperoni đậm vị, mozzarella béo ngậy, sốt cà chua bí truyền.</p><div class="pizza-card__footer"><strong>159.000đ</strong><a href="mailto:order@crustco.example?subject=Đặt%20Classic%20Pepperoni" aria-label="Đặt Classic Pepperoni">+</a></div></div>
+        </article>
+        <article class="pizza-card">
+          <div class="pizza-card__image"><span class="card-tag card-tag--green">FRESH PICK</span><img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=85" alt="Pizza Margherita với cà chua, phô mai và lá húng quế"></div>
+          <div class="pizza-card__body"><div class="pizza-card__title"><h3>Garden Margherita</h3><span class="pizza-card__rating">★ 4.8</span></div><p>Cà chua chín mọng, mozzarella tươi và húng quế thơm dịu.</p><div class="pizza-card__footer"><strong>139.000đ</strong><a href="mailto:order@crustco.example?subject=Đặt%20Garden%20Margherita" aria-label="Đặt Garden Margherita">+</a></div></div>
+        </article>
+        <article class="pizza-card">
+          <div class="pizza-card__image"><span class="card-tag card-tag--cream">CHEESE LOVER</span><img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=800&q=85" alt="Pizza phô mai nướng vàng hấp dẫn"></div>
+          <div class="pizza-card__body"><div class="pizza-card__title"><h3>Four Cheese Dream</h3><span class="pizza-card__rating">★ 4.9</span></div><p>Bốn loại phô mai tan chảy, thơm béo trên nền đế bánh thủ công.</p><div class="pizza-card__footer"><strong>179.000đ</strong><a href="mailto:order@crustco.example?subject=Đặt%20Four%20Cheese%20Dream" aria-label="Đặt Four Cheese Dream">+</a></div></div>
+        </article>
+      </div>
+      <div class="menu-bottom"><span>♡ Made fresh, made for you.</span><a class="text-link text-link--red" href="mailto:order@crustco.example?subject=Xin%20thực%20đơn%20đầy%20đủ">Xem thực đơn đầy đủ <span>↗</span></a></div>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="story__visual">
+        <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1100&q=85" alt="Pizza thủ công vừa ra lò">
+        <div class="story-stamp"><span>FRESH</span><strong>✳</strong><span>ALWAYS</span></div>
+        <span class="story-caption">THE LITTLE THINGS MAKE IT DELICIOUS.</span>
+      </div>
+      <div class="story__content">
+        <p class="eyebrow"><span class="eyebrow__line"></span> KHÔNG CHỈ LÀ MỘT CHIẾC PIZZA</p>
+        <h2>Niềm vui nằm<br>trong từng <em>lát bánh.</em></h2>
+        <p class="story__copy">Chúng tôi tin rằng pizza ngon không cần cầu kỳ — chỉ cần nguyên liệu tử tế, bột bánh được ủ đủ lâu và một chiếc lò thật nóng. Mỗi chiếc bánh đều được làm thủ công, nướng khi bạn gọi và trao đi khi còn thơm lừng.</p>
+        <div class="values">
+          <div class="value"><span class="value__icon">✳</span><div><strong>Nguyên liệu tươi</strong><small>Chọn lọc mỗi ngày, không thỏa hiệp chất lượng.</small></div></div>
+          <div class="value"><span class="value__icon">♨</span><div><strong>Nướng vừa ra lò</strong><small>Nóng hổi đến tay bạn, trọn vẹn hương vị.</small></div></div>
+        </div>
+        <a class="button button--dark" href="#contact">Ghé thăm chúng tôi <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="quote-section" id="reviews">
+      <span class="quote-mark">“</span>
+      <p class="eyebrow">LỜI YÊU THƯƠNG TỪ KHÁCH HÀNG</p>
+      <blockquote>“Đế bánh giòn đúng chuẩn, phô mai thơm béo mà không ngấy. Một trong những chiếc pizza ngon nhất mình từng thử!”</blockquote>
+      <div class="quote-author"><span class="quote-author__avatar">L</span><span><strong>Lan Anh</strong><small>Khách hàng thân thiết</small></span><span class="stars">★★★★★</span></div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="cta-section__decor" aria-hidden="true">✳</div>
+      <p class="eyebrow"><span class="eyebrow__line"></span> BỤNG ĐÓI RỒI PHẢI KHÔNG?</p>
+      <h2>Ngày vui hơn,<br><em>có pizza ngon.</em></h2>
+      <p>Rủ hội bạn thân, chọn vị yêu thích và để chúng tôi lo phần còn lại.</p>
+      <a class="button button--light" href="mailto:order@crustco.example?subject=Đặt%20pizza">Đặt bánh ngay <span>↗</span></a>
+      <span class="cta-section__foot">GOOD FOOD. GOOD PEOPLE. GOOD MOOD.</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand--footer" href="#home"><span class="brand__mark">C<span>&</span></span><span class="brand__name">CRUST <i>&</i> CO.<small>GOOD MOOD, GREAT PIZZA</small></span></a>
+    <p>Pizza thủ công, làm bằng cả trái tim.</p>
+    <div class="footer-links"><a href="#menu">Thực đơn</a><a href="#story">Về chúng tôi</a><a href="#contact">Liên hệ</a></div>
+    <small class="copyright">© 2026 CRUST & CO. · WEBSITE PROJECT BY DƯƠNG QUANG VINH</small>
+  </footer>
+</body>
+</html>
